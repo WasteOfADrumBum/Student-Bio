@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Stylesheets with Relative Paths</title>
+
+    <!--CSS StyleSheet Nested in /css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--HTML/CSS by Joshua M. Small-->
+
+</head>
+
+<body>
+
+    <!-- || Header || -->
+
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- || BIO || -->
+
+        <!--Added an id called "main-bio" for the first section tag -->
+        <section id="main-bio">
+
+            <h2>Joshua M. Small</h2>
+
+            <!--Added an id called "bio-image" for the bio image-->
+            <!--URL linked to my GitHub profile picture-->
+            <img id= "bio-image" src="https://avatars0.githubusercontent.com/u/66432859?s=460&u=37ebb158a705a684e262e33d8ad020d8c40a126c&v=4" alt="GitHub Profile Picture">
+            <!--Moved Image Size Contraints to CSS-->
+            <!--Included alt attribute with all images-->
+
+            <!--Placeholder text from www.lipsum.com-->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+        </section>
+
+        <!-- || Contact Info || -->
+
+        <!--Added an id called "contact-info" for the second section tag-->
+        <section id="contact-info">
+
+            <h2>Contact Info</h2>
+
+            <ul>
+                <!--Email JMSmall89@gmail.com-->
+                <li><strong>Email:</strong> <a href="mailto:JMSmall89@gmail.com">JMSmall89@gmail.com</a></li>
+                <!--Opens my GitHub profile in a new tab-->
+                <li><strong>GetHub:</strong> <a href="https://github.com/WasteOfADrumBum" alt="GetHub" target="_blank">GitHub.com/WasteOfADrumBum</a></li>
+                <!--Placeholder for my portfolio when I have a link to it-->
+                <li><strong>Portfolio:</strong> <a>Coming Soon!</a></li>
+            </ul> 
+
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
