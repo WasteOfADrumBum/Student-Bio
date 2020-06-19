@@ -21,6 +21,7 @@ header {
     /* The background color is #333333 */
     background-color: #333333; 
     text-align: center;
+    border-radius: 30px;
 }
 
 /* || h1 || */
@@ -48,6 +49,10 @@ h2 {
     /* Made the container have a width of 1024 pixels, and center it by using margin: 0 auto;. */
     width: 1024ps;
     margin: 0 auto;
+    background-color: #adadad;
+    padding: 20px;
+    border-radius: 30px;
+    position:absolute
 }
 
 /* || Main Bio || */
@@ -82,3 +87,12 @@ h2 {
     /* margins added to the image so there is distance between it and the bio text */
     margin: 15px;
 }
+
+/* || Footer || */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
